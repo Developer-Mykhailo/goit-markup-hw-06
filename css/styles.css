@@ -683,7 +683,7 @@ body {
   fill: var(--color-white);
 }
 
-.chackbox-text {
+.checkbox-text {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -740,6 +740,21 @@ body {
   .section {
     padding-top: 96px;
     padding-bottom: 96px;
+  }
+
+  /* modal */
+
+  .modal {
+    width: 90%;
+  }
+
+  .form-input {
+    width: 100%;
+  }
+
+  .checkbox-text {
+    display: flex;
+    align-items: center;
   }
 
   /* ---features 320 → 767*/

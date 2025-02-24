@@ -18,7 +18,8 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
-    <title>goit-markup-hw-05</title>
+    <link rel="stylesheet" href="./css/mobile-menu.css" />
+    <title>goit-markup-hw-06</title>
   </head>
 
   <body>
@@ -552,17 +553,82 @@
               value="true"
               required
             />
-            <label for="user-privacy" class="chackbox-text">
+            <label class="checkbox-text" for="user-privacy">
               <span class="checkbox">
                 <svg class="icon-checkbox" width="10" height="8">
                   <use href="./images/icons.svg#icon-checkbox"></use></svg></span
-              >I accept the terms and conditions of the
-              <a href="#" class="policy">Privacy Policy</a>
+              ><span class="policy-text"
+                >I accept the terms and conditions of the<a href="#" class="policy"
+                  >Privacy Policy</a
+                >
+              </span>
             </label>
           </div>
 
           <button class="btn-send btn-res" type="submit">Send</button>
         </form>
+      </div>
+    </div>
+
+    <!-- mobile menu -->
+
+    <div class="mb-overlay">
+      <div class="mb-menu">
+        <button class="modal-btn-close btn-res" type="button">
+          <svg class="icon-close" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+
+        <nav class="mob-nav">
+          <ul class="mb-list list">
+            <li class="mb-item"><a href="./index.html" class="mb-link">Studio</a></li>
+            <li class="mb-item"><a href="#" class="mb-link">Portfolio</a></li>
+            <li class="mb-item"><a href="#" class="mb-link">Contacts</a></li>
+          </ul>
+        </nav>
+
+        <address class="mb--address">
+          <ul class="mb-address-list list">
+            <li class="mb-address-item">
+              <a href="mailto:info@devstudio.com" class="mb-contact">info@devstudio.com</a>
+            </li>
+            <li class="mb-address-item">
+              <a href="tel:+110001111111" class="mb-contact">+11 (000) 111-11-11</a>
+            </li>
+          </ul>
+        </address>
+
+        <ul class="social-list list">
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <svg class="social-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <svg class="social-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <svg class="social-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <svg class="social-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   </body>
