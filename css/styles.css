@@ -2,6 +2,11 @@
   display: none;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 10px;
+}
+
 /* reset styles */
 
 :root {
